@@ -31,7 +31,7 @@ public class RestServiceProvider {
     public Person postPerson(@ApiParam(value = "姓名", required = true, defaultValue = "chandler") @RequestParam("name") String name) {
         Person person = new Person();
         person.setName(name);
-        person.setAge("10");
+        person.setAge(10);
         person.setSex("man");
         return person;
     }
@@ -45,7 +45,7 @@ public class RestServiceProvider {
     @RequestMapping(value = "/body/postPerson", method = RequestMethod.POST, produces = "application/json; charset=UTF-8")
     public Person postPerson(@RequestBody Person person) {
         person.setName("kyle");
-        person.setAge("10");
+        person.setAge(10);
         person.setSex("man");
         return person;
     }

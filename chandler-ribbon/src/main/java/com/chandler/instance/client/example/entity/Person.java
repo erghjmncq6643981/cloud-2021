@@ -15,7 +15,7 @@ public class Person {
     @Schema(description = "姓名", example = "chandler")
     private String name;
     @Schema(description = "年龄", example = "18")
-    private String age;
+    private Integer age;
     @Schema(description = "性别", example = "man")
     private String sex;
 }
