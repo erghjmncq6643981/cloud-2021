@@ -37,7 +37,7 @@ import java.util.Properties;
  * @version 1.0.0
  * @since 1.8
  */
-public class ShardingJPATest {
+public class sShardingJPATest {
     public static void main(String[] args) throws SQLException {
         // 配置真实数据源
         Map<String, DataSource> dataSourceMap = new HashMap<>();
